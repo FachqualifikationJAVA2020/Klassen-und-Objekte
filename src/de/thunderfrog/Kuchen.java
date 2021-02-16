@@ -24,7 +24,7 @@ public class Kuchen {
     void verkaufen (int stuecke){
         System.out.println("Sie möchten " + stuecke + " stücke Kuchen.");
 
-        if(stuecke > stueckzahl){
+        if(stuecke > stueck){
             System.out.println("Leider keine Stücke mehr da");
         }else {
             System.out.println("Sie bekommen " + stuecke + " stücke Kuchen");
