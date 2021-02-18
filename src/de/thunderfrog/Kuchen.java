@@ -13,7 +13,7 @@ public class Kuchen {
         this.stueck = stueckzahl;
     }
 
-    void ausgabe(){
+    void ausgabe (){
         if(stueck == 0){
             System.out.println("Name: " + name + " Preis: " + preis + " Stücke: 0");
         }else{
@@ -31,5 +31,4 @@ public class Kuchen {
             stueck = stueck - stuecke;
         }
     }
-
 }
